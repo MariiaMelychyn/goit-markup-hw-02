@@ -64,15 +64,16 @@ ul{
      }
 
      /* button */
-     .button-primary{
-         color: var(--title-text-color)
-     }
-
-     .button-primary:hover{
-         color: var(--accent-color)
+     .button{
+     color: var(--primary-white-color);
+     background-color: var(--accent-color);
      }
      
 
+     .button .button-primare{
+         background-color: var(--accent-color);
+         color: var(--primary-white-color);
+     }
 
      /* footer */
         .adress{
