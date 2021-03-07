@@ -15,6 +15,9 @@
 --primary-white-color: #ffffff;
 }
 
+.body{
+    color: aliceblue;
+}
 .logo{
     color: var(--accent-color);
 }
