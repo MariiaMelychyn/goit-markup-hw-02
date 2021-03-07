@@ -1,3 +1,81 @@
-body {
-    background-color: brown;
+/* Основний колір тексту #212121*/
+/*Додатковий колір тексту #757575*/
+/* Білий колір тексту #FFFFFF*/
+/* Акцент #2196F3 */
+
+/*Колір секції першоі #2F303A*/
+/*Колір секції другоі #E5E5E5*/
+/*Колір секції третьоі #F5F4FA*/
+
+:root{
+--primary-text-color:#F5F4FA;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--text-color: #757575;
+--primary-white-color: #ffffff;
 }
+
+.logo{
+    color: var(--accent-color);
+}
+
+/*Убираємо точки із ul*/
+ul{
+    list-style: none;
+}
+
+/* site-nav  */
+.site-nav-stydio {
+    color: var(--accent-color);
+}
+
+.site-nav-portfolio,
+.site-nav-kontactu{
+    color: var(--title-text-color);
+}
+
+/* auth-nav */
+.auth-nav-mail{
+    color: var(--accent-color);
+}
+.auth-nav-tel{
+    color: var(--text-color);
+}
+
+/* section-glava */
+.section-glava{
+    color: var(--primary-white-color);
+
+    /* features */
+
+     .features-title{
+        color: var(--title-text-color) ;
+     }
+     .features-list{
+        color: var(--text-color);
+     }
+
+     /* section-title */
+     .section-title{
+     color: var(--title-text-color);
+     }
+
+     /* button */
+     .button-primary{
+         color: var(--title-text-color)
+     }
+
+     .button-primary:hover{
+         color: var(--accent-color)
+     }
+     
+
+
+     /* footer */
+        .adress{
+            color: var(--primary-white-col);
+        }
+        
+    
+        
+    
