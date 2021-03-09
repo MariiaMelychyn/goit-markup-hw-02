@@ -17,7 +17,6 @@
 
      .body{
      color: #ffffff;
-
      font-family: Roboto, sans-serif;
      letter-spacing: 0.03em;
      }
@@ -72,13 +71,15 @@
      /* auth-nav */
      .auth-nav-mail{
      color: var(--accent-color);
-
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
      }
      .auth-nav-tel{
      color: var(--text-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
      }
 
      /* section-glava */
@@ -89,6 +90,7 @@
      font-size: 44px;
      line-height: 1.36;
      text-align: center;
+     text-transform: uppercase;
      }
 
      /* features */
@@ -99,6 +101,7 @@
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
+     text-transform: uppercase;
      }
      .features-list{
      color: var(--text-color);
