@@ -1,13 +1,5 @@
-/* Основний колір тексту #212121*/
-/*Додатковий колір тексту #757575*/
-/* Білий колір тексту #FFFFFF*/
-/* Акцент #2196F3 */
-
-/*Колір секції першоі #2F303A*/
-/*Колір секції другоі #E5E5E5*/
-/*Колір секції третьоі #F5F4FA*/
-
-     :root{
+     /* Color*/
+    :root{
      --primary-text-color:#F5F4FA;
      --title-text-color: #212121;
      --accent-color: #2196F3;
@@ -57,6 +49,7 @@
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
      }
 
      .site-nav-portfolio,
@@ -66,6 +59,7 @@
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
      }
 
      /* auth-nav */
@@ -74,12 +68,14 @@
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
      }
      .auth-nav-tel{
      color: var(--text-color);
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
      }
 
      /* section-glava */
