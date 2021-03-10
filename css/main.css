@@ -7,7 +7,7 @@
      --primary-white-color: #ffffff;
      }
 
-     .body{
+     body{
      color: #ffffff;
      font-family: Roboto, sans-serif;
      letter-spacing: 0.03em;
@@ -33,10 +33,17 @@
 
       /* link */
      .link{
-     color: var(--text-color)
+     color: var(--text-color);
      }
      .link:hover{
      color: var(--accent-color);
+     }
+     .link{
+      color: var(--text-color);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      text-decoration: none;
      }
 
      /*Убираємо точки із ul*/
@@ -64,22 +71,8 @@
      text-decoration: none;
      }
 
-     /* auth-nav */
-     .auth-nav-mail{
-     color: var(--accent-color);
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14;
-     text-decoration: none;
-     }
-     .auth-nav-tel{
-     color: var(--text-color);
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14;
-     text-decoration: none;
-     }
 
+     
      /* section-glava */
      .section-glava{
      color: var(--primary-white-color);
